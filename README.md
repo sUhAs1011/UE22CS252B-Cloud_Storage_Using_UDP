@@ -24,4 +24,6 @@ python server4.py
 python3 server4.py
 ```
 
+My project has upload,download,ls and cmd options, based the request that the client sends,the server responds accordingly
+
 
