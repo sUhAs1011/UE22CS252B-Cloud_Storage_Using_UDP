@@ -1,30 +1,40 @@
-# Cloud_Storage-using-UDP
+To refine your project description and instructions, here’s a more structured and detailed format:
 
-It is my fourth sem computer networks mini-project. As the part of course curriculum, we had to create python programs for client server architecture using Socket Programming
+---
 
-In this cloud storage project, we can upload and download files. Please install the essential modules before running the python code.
+# Cloud Storage using UDP
 
-When the client-server files are ran on the same system, the ip-address should be "localhost", and when we are using multiple systems say 2, the client system should use server address and 
-the server should use 0.0.0.0 as the ip address,ensure that both the client and server are on the same network
+### Overview
+This project, developed as a mini-project for the fourth-semester Computer Networks course, demonstrates a cloud storage system based on UDP, employing a client-server architecture with Python Socket Programming. The functionalities include file upload, download, listing files (`ls`), and command execution (`cmd`) on the server, based on client requests.
 
-The cert.pm file is the ssl certifcate
+### Requirements
+1. Install the required Python modules (e.g., `socket`, `ssl`, etc.) before running the code.
+2. Ensure both client and server systems are on the same network.
 
-Command for running the client side
+### Network Configuration
+- **Single System:** Use "localhost" as the IP address for both client and server.
+- **Multiple Systems:**
+   - The **client** should use the server's IP address.
+   - The **server** should set the IP address to "0.0.0.0" to allow connections from external clients.
 
-```shell
-python client4.py
-      or
-python3 client4.py
-```
+### SSL Certificate
+The file `cert.pm` is the SSL certificate used to secure communication between the client and server.
 
-Command for running the server side
+### Running the Application
 
-```shell
-python server4.py
-      or
-python3 server4.py
-```
+- **Server:**
+   ```shell
+   python server4.py
+   # or
+   python3 server4.py
+   ```
 
-My project has upload,download,ls and cmd options, based the request that the client sends,the server responds accordingly
+- **Client:**
+   ```shell
+   python client4.py
+   # or
+   python3 client4.py
+   ```
+
 
 
