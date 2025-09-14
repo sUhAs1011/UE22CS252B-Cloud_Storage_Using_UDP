@@ -2,7 +2,7 @@
 # Cloud-Storage-Using-UDP: Fourth Semester CN Mini-Project
 
 ### Overview
-This project, developed as a mini-project for the fourth-semester **Computer Networks** course, demonstrates a cloud storage system built on **User Datagram Protocol (UDP)** using a **client-server architecture** implemented with Python's Socket Programming. Unlike traditional cloud storage systems that typically rely on **Transmission Control Protocol (TCP)** for its reliability and delivery guarantees, this system leverages UDP to prioritize speed and low latency.
+This project, developed as a mini-project for the fourth-semester **Computer Networks** course, demonstrates a cloud file transfer system built on **User Datagram Protocol (UDP)** using a **client-server architecture** implemented with Python's Socket Programming. Unlike traditional cloud transfer systems that typically rely on **Transmission Control Protocol (TCP)** for its reliability and delivery guarantees, this system leverages UDP to prioritize speed and low latency.
 
 UDP, being connectionless, lacks built-in error correction or delivery guarantees, making it less common for cloud storage applications. However, its minimal overhead and faster data transmission make it suitable for specific use cases where speed is critical, and some loss of reliability can be mitigated through custom mechanisms. This project showcases such an approach, enabling functionalities like:
 - **File upload and download**: Allowing clients to transfer files to and from the server.
