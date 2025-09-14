@@ -44,5 +44,5 @@ The file `cert.pm` is the SSL certificate used to secure communication between t
 ### Teammates
 
 - Suhas Venkata(PES2UG22CS590)
-- Sumukh GS(PES2UG22CS596)
+- Sumukh GS(PES2UG22CS597)
 
